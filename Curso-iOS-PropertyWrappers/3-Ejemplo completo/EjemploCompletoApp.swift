@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@main
 struct EjemploCompletoApp: App {
     @State private var appData = AppData()
     

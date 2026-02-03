@@ -13,7 +13,7 @@ class ThemeManager {
     var accentColor: Color = .blue
 }
 
-@main
+//@main
 struct App_con_Environment: App {
     // Aquí creamos la instancia
     @State private var theme = ThemeManager()

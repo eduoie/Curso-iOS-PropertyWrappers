@@ -67,6 +67,10 @@ struct VistaEjemploCompleto: View {
                 }
             }
         }
+        .onAppear {
+            print("Entrando en onAppear")
+            print(appData.instanceId)
+        }
     }
 }
 
