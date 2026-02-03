@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+//@main
 struct Curso_iOS_PropertyWrappersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VistaBasico()
         }
     }
 }
